@@ -41,3 +41,24 @@ In summary, this code creates a basic Swing GUI window with a specified size and
 <strong>Summary</strong>
 
 This example is identical to the first except that this time I use inheritance instead of composition.
+
+### 03 - First JPanel  
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> panel-example
+
+<strong>Summary</strong>
+
+This Java Swing example creates a window with a red panel inside of it.
+
+First, the necessary classes are imported: Color and JFrame from java.awt package and JPanel from javax.swing package.
+
+Then, the ExemploPainel class is defined, which has a JFrame and a JPanel as its fields. The constructor takes a string parameter titulo which is used as the title of the JFrame. In the constructor, a new JFrame is created with the provided title and a new JPanel is created.
+
+The configurarJanela method sets up the window. First, the size of the window is set to 300 x 200 using jFrame.setSize(300, 200). Then, the layout is disabled by calling jFrame.setLayout(null). The size of the panel is set to 100 x 100 using jPanel.setSize(100, 100) and the background color of the panel is set to red using jPanel.setBackground(Color.RED).
+
+Finally, the panel is added to the frame using jFrame.add(jPanel) and the window is made visible by calling jFrame.setVisible(true).
+
+The main method creates an instance of the ExemploPainel class, passing in the title "Adicionado um painel", and calls the configurarJanela method on that instance to display the window.
+
+<p align="center"> <img src="Images/Exemplo_Painel.png" width=291 height="246" alt="Example output" title="Panel example"></p>
