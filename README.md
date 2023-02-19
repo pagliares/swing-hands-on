@@ -30,3 +30,5 @@ Next, it sets the size of the window using the setSize() method, which takes two
 Finally, the program sets the visibility of the window to true using the setVisible() method, which shows the window on the screen.
 
 In summary, this code creates a basic Swing GUI window with a specified size and title and makes it visible on the screen. It's a simple but essential starting point for creating more complex GUI applications in Java.
+
+<p align="center"> <img src="Images/First_JFrame.png" width=291 height="246" alt="Example output" title="First JFrame"></p>
