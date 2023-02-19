@@ -10,6 +10,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 ### Part I - First steps with Swing
 <p><a href="https://github.com/pagliares/swing-hands-on#01---first-jframe-composition">01 - First JFrame - Composition</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#02---first-jframe-inheritance">02 - Second JFrame - Inheritance</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#03---first-jpanel">03 - JPanel example</a></p>
 
 
 ## Part I - First steps with Swing
