@@ -8,7 +8,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 ## Outline
 
 ### Part I - First steps with Swing
-<p><a href="">01 - First steps with Swing</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on/blob/main/README.md#01---first-jframe">01 - First JFrame</a></p>
 
 
 
@@ -17,5 +17,5 @@ I thinnk this repository is a valuable resource for students who want to review 
 
 ### 01 - First JFrame  
 
-- <small><a href="">Back to Outline</a></small>
+- <small><a href="https://github.com/pagliares/swing-hands-on/edit/main/README.md#outline">Back to Outline</a></small>
 - <strong>Project source:</strong> first-jframe
