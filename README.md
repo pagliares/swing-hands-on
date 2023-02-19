@@ -18,8 +18,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 - <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
 - <strong>Project source:</strong> first-jframe
 
-
-<strong> summary </strong>
+<strong>Summary</strong>
 
 This example creates a basic GUI window using the Swing framework. It is organized into a single class called PrimeiraJanela, which contains a single method called main().
 
