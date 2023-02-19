@@ -17,5 +17,5 @@ I thinnk this repository is a valuable resource for students who want to review 
 
 ### 01 - First JFrame  
 
-- <small><a href="https://github.com/pagliares/swing-hands-on/edit/main/README.md#outline">Back to Outline</a></small>
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
 - <strong>Project source:</strong> first-jframe
