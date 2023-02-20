@@ -100,3 +100,17 @@ Overall, this code creates a simple Swing program with a window containing two p
 - <strong>Project source:</strong> flow-layout-example
 
 <strong>Summary</strong>
+
+This Java code creates a simple window with three buttons using the FlowLayout layout manager.
+
+The FlowLayoutExemplo class defines a constructor that initializes the JFrame object with the title passed as an argument and creates three JButton objects.
+
+The configuraJanela() method sets the JFrame layout to FlowLayout and adds the three buttons to it. Then it packs the components to calculate the preferred size of the window and makes it visible.
+
+The main method creates an instance of FlowLayoutExemplo and calls its configuraJanela() method to display the window with the three buttons.
+
+Overall, this code demonstrates the use of the FlowLayout layout manager to arrange components in a single row, wrapping them to the next line if necessary.
+
+<p align="center"> <img src="Images/Flow_Layout_Example.png" width="483" height="99" alt="Example output" title="FlowLayout"></p>
+
+
