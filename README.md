@@ -17,7 +17,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#05---flowlayout-example">05 - FlowLayout example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#06---borderlayout-example">06 - BorderLayout example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#07---gridlayout-example">07 - GridLayout example</a></p>
-
+<p><a href="https://github.com/pagliares/swing-hands-on#07---gridlayout-example">08 - BoxLayout example</a></p>
 
 ## Part I - First steps with Swing
 
@@ -154,3 +154,26 @@ The configuraJanela() method configures the layout of the window using a GridLay
 The main() method creates an instance of the GridLayoutExemplo class and calls the configuraJanela() method to display the window with the buttons arranged in a 2x3 grid.
 
 <p align="center"> <img src="Images/Grid_Layout_Example.png" width="381" height="234" alt="Example output" title="BorderLayout"></p>
+
+
+### 08 - BoxLayout example 
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> box-layout-example
+
+<strong>Summary</strong>
+
+This Java program defines a class named BoxLayoutFrame that extends JFrame and creates a GUI with several Box containers that use different types of layout.
+
+The GUI contains a JTabbedPane with five tabs, each containing a Box container with buttons arranged in a specific layout. The first tab uses a horizontal Box with buttons, the second tab uses a vertical Box with struts (empty space), the third tab uses a horizontal Box with glue (flexible space), the fourth tab uses a vertical Box with rigid areas (fixed-size empty space), and the fifth tab uses a vertical Box with glue.
+
+The program defines a constructor for the BoxLayoutFrame class that creates the Box containers and adds them to the JTabbedPane. The main method creates an instance of BoxLayoutFrame and sets its size and visibility.
+
+When the program runs, it displays a window with a tabbed pane that allows the user to switch between the different Box layouts and see how they affect the arrangement of the buttons.
+
+<p align="center"> <img src="Images/Box_Layout_1.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
+<p align="center"> <img src="Images/Box_Layout_2.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
+<p align="center"> <img src="Images/Box_Layout_3.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
+<p align="center"> <img src="Images/Box_Layout_4.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
+<p align="center"> <img src="Images/Box_Layout_5.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
+
