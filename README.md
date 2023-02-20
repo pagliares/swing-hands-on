@@ -11,6 +11,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#01---first-jframe-composition">01 - First JFrame - Composition</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#02---first-jframe-inheritance">02 - Second JFrame - Inheritance</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#03---first-jpanel">03 - JPanel example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#03---first-jpanel">04 - One more JPanel example</a></p>
 
 
 ## Part I - First steps with Swing
@@ -63,3 +64,28 @@ Finally, the panel is added to the frame using jFrame.add(jPanel) and the window
 The main method creates an instance of the ExemploPainel class, passing in the title "Adicionado um painel", and calls the configurarJanela method on that instance to display the window.
 
 <p align="center"> <img src="Images/Exemplo_Painel.png" width=291 height="246" alt="Example output" title="Panel example"></p>
+
+
+### 04 - One more JPanel example 
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> panel-demo-example
+
+<strong>Summary</strong>
+
+This is a Java Swing code that creates a window with two panels, each panel containing three buttons.
+
+The first line declares a public class called ExemploPainelDemo. The second line declares a static main method, which is the entry point for the program. The third line creates a new JFrame object, which is the main window of the program. It has a title of "Demo".
+
+The fourth line sets the size of the JFrame to 350 pixels wide and 250 pixels tall. The fifth line sets the layout of the JFrame to a GridLayout with 2 rows and 1 column. This means that there will be two panels stacked on top of each other.
+
+The sixth line begins a for loop that will create two panels. The seventh line creates a new JPanel object, which is a container for the buttons. The eighth line sets the background color of the panel to orange if i is 0, or cyan if i is 1.
+
+The ninth line begins a for loop that will create three buttons and add them to the panel. The text of each button is "Button" followed by the value of j. The tenth line adds the panel to the JFrame.
+
+The eleventh line ends the for loop that creates the panels. The twelfth line sets the JFrame to be visible.
+
+Overall, this code creates a simple Swing program with a window containing two panels, each panel containing three buttons. The background color of the first panel is orange, while the background color of the second panel is cyan.
+
+<p align="center"> <img src="Images/Exemplo_Painel_Demo.png" width=291 height="246" alt="Example output" title="One more panel example"></p>
+
