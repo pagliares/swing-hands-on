@@ -15,6 +15,8 @@ I thinnk this repository is a valuable resource for students who want to review 
 
 ## Part II - Layout managers
 <p><a href="https://github.com/pagliares/swing-hands-on#04---one-more-jpanel-example">05 - FlowLayout example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#04---one-more-jpanel-example">06 - BorderLayout example</a></p>
+
 
 
 ## Part I - First steps with Swing
@@ -114,3 +116,23 @@ Overall, this code demonstrates the use of the FlowLayout layout manager to arra
 <p align="center"> <img src="Images/Flow_Layout_Example.png" width="483" height="99" alt="Example output" title="FlowLayout"></p>
 
 
+### 06 - BorderLayout example 
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> border-layout-example
+
+<strong>Summary</strong>
+
+This Java code creates a simple window with five buttons using the BorderLayout layout manager.
+
+The BorderLayoutExemplo class defines a constructor that initializes the JFrame object with the title passed as an argument and creates five JButton objects for the different regions of the border layout.
+
+The configuraJanela() method sets the JFrame layout to BorderLayout and adds the five buttons to their respective positions. The BorderLayout manager divides the container into five areas: North, South, East, West, and Center. The JButton objects are added to their respective positions by calling add() method with the button and the corresponding position constant from the BorderLayout class.
+
+The setSize() method sets the size of the window and the setVisible() method makes the window visible.
+
+The main method creates an instance of BorderLayoutExemplo and calls its configuraJanela() method to display the window with the five buttons.
+
+Overall, this code demonstrates the use of the BorderLayout layout manager to arrange components in five regions of a container.
+
+<p align="center"> <img src="Images/Border_Layout_Example.png" width="355" height="232" alt="Example output" title="BorderLayout"></p>
