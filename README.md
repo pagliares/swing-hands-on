@@ -13,6 +13,9 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#03---first-jpanel">03 - JPanel example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#04---one-more-jpanel-example">04 - One more JPanel example</a></p>
 
+## Part II - Layout managers
+<p><a href="https://github.com/pagliares/swing-hands-on#04---one-more-jpanel-example">05 - FlowLayout example</a></p>
+
 
 ## Part I - First steps with Swing
 
@@ -89,3 +92,11 @@ Overall, this code creates a simple Swing program with a window containing two p
 
 <p align="center"> <img src="Images/Exemplo_Painel_Demo.png" width=291 height="246" alt="Example output" title="One more panel example"></p>
 
+## Part II - Layout managers
+
+### 05 - FlowLayout example 
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> flow-layout-example
+
+<strong>Summary</strong>
