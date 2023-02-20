@@ -14,8 +14,8 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#04---one-more-jpanel-example">04 - One more JPanel example</a></p>
 
 ## Part II - Layout managers
-<p><a href="https://github.com/pagliares/swing-hands-on#04---one-more-jpanel-example">05 - FlowLayout example</a></p>
-<p><a href="https://github.com/pagliares/swing-hands-on#04---one-more-jpanel-example">06 - BorderLayout example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#05---flowlayout-example">05 - FlowLayout example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#06---borderlayout-example">06 - BorderLayout example</a></p>
 
 
 
