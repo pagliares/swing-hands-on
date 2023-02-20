@@ -16,7 +16,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 ## Part II - Layout managers
 <p><a href="https://github.com/pagliares/swing-hands-on#05---flowlayout-example">05 - FlowLayout example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#06---borderlayout-example">06 - BorderLayout example</a></p>
-
+<p><a href="https://github.com/pagliares/swing-hands-on#06---borderlayout-example">07 - GridLayout example</a></p>
 
 
 ## Part I - First steps with Swing
@@ -136,3 +136,21 @@ The main method creates an instance of BorderLayoutExemplo and calls its configu
 Overall, this code demonstrates the use of the BorderLayout layout manager to arrange components in five regions of a container.
 
 <p align="center"> <img src="Images/Border_Layout_Example.png" width="355" height="232" alt="Example output" title="BorderLayout"></p>
+
+
+### 07 - GridLayout example 
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> grid-layout-example
+
+<strong>Summary</strong>
+
+This is a Java program that creates a window with a grid layout of two rows and three columns, and adds six buttons to it.
+
+The program creates a class called GridLayoutExemplo that extends JFrame. In the constructor, it takes a string argument titulo which is used as the title of the window. It also creates six button objects btn1 through btn6.
+
+The configuraJanela() method configures the layout of the window using a GridLayout with two rows and three columns. It then adds the six buttons to the window using the add() method. Finally, it sets the size of the window to 300x200 pixels and makes it visible.
+
+The main() method creates an instance of the GridLayoutExemplo class and calls the configuraJanela() method to display the window with the buttons arranged in a 2x3 grid.
+
+<p align="center"> <img src="Images/Grid_Layout_Example.png" width="381" height="234" alt="Example output" title="BorderLayout"></p>
