@@ -16,7 +16,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 ## Part II - Layout managers
 <p><a href="https://github.com/pagliares/swing-hands-on#05---flowlayout-example">05 - FlowLayout example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#06---borderlayout-example">06 - BorderLayout example</a></p>
-<p><a href="https://github.com/pagliares/swing-hands-on#06---borderlayout-example">07 - GridLayout example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#07---gridlayout-example">07 - GridLayout example</a></p>
 
 
 ## Part I - First steps with Swing
