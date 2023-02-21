@@ -208,3 +208,17 @@ Overall, this code is an example of how to use the GridBagLayout to create a cus
 - <strong>Project source:</strong> action-listener-example
 
 <strong>Summary</strong>
+
+This is a Java class named "ExemploActionListener" that implements the ActionListener interface. It has three instance variables: two JButtons named "btn1" and "btn2", and a JFrame named "frame".
+
+The constructor for this class takes a String argument which is used as the title for the JFrame.
+
+There is a method named "configurarJanela" that sets the layout of the frame to a FlowLayout and creates two buttons ("btn1" and "btn2") with text labels "Primeiro" and "Segundo", respectively. It then registers "this" object (an instance of ExemploActionListener) as the ActionListener for both buttons, adds the buttons to the frame, packs the frame to calculate its size, and sets it to be visible.
+
+Finally, there is an implementation of the actionPerformed method from the ActionListener interface that displays a message dialog with the text label of the button that was clicked.
+
+The main method creates an instance of the ExemploActionListener class and calls the "configurarJanela" method to set up and display the JFrame.
+
+<p align="center"> <img src="Images/Action_Listener_1.png" width="372" height="84" alt="Example output" title="ActionListener example"></p>
+<p align="center"> <img src="Images/Action_Listener_2.png" width="302" height="201" alt="Example output" title="ActionListener example"></p>
+<p align="center"> <img src="Images/Action_Listener_3.png" width="302" height="201" alt="Example output" title="ActionListener example"></p>
