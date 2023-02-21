@@ -24,7 +24,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 ## Part III - Event handlers, adapter classes, and inner classes
 <p><a href="https://github.com/pagliares/swing-hands-on#10---actionlistener-example">10 - ActionListener example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#11---mouselistener-example">11 - MouseListener example</a></p>
-<p><a href="">12 - Inner classes</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#12---inner-classes">12 - Inner classes</a></p>
 
 
 ## Part I - First steps with Swing
@@ -258,6 +258,8 @@ The main method creates an instance of the ExemploMouseListener class and calls 
 
 <strong>Summary</strong>
 
+<strong>Example #1</strong> 
+
 This first inner class example (ExemploClasseInternaEstatica)  demonstrates the use of static inner classes. The outer class, ExemploClasseInternaEstatica, contains two static inner classes: InternaUm and InternaDois.
 
 InternaUm has a static field campoInterna1 and a static method metodoInterno(). The method prints a message to the console, sets campoInterna1 to 15, and returns void.
@@ -270,7 +272,9 @@ We then call InternaDois.metodoInterno(), which sets campoInterna2 to 55 and pri
 
 The purpose of this code is to demonstrate how to define and use static inner classes in Java. Static inner classes are nested classes that are declared as static, which means that they can be accessed without creating an instance of the outer class. In this example, we access the static fields and methods of InternaUm and InternaDois directly, without creating an instance of ExemploClasseInternaEstatica.
 
-This second inner class example (ExemploClasseInternaDeInstancia) demonstrates the use of an inner class within an outer class instance.
+<strong>Example #2</strong> 
+
+The second inner class example (ExemploClasseInternaDeInstancia) demonstrates the use of an inner class within an outer class instance.
 
 The outer class, ExemploClasseInternaDeInstancia, has a field campoUm and a private inner class Interna. Interna has two fields, campoUm and campoDois, and a method metodoInterno() that sets and prints the values of these fields.
 
@@ -284,7 +288,9 @@ We print the values of the Interna fields and the outer class field to the conso
 
 The purpose of this code is to demonstrate how to define and use an inner class within an outer class instance in Java. An inner class can access the fields and methods of the outer class, and can also have its own fields and methods. When creating an instance of the inner class, we need to use the new keyword with the outer class instance as a qualifier.
 
-This third inner class example (ExemploClasseEmbutida) demonstrates the use of a local inner class within a method.
+<strong>Example #3</strong> 
+
+The third inner class example (ExemploClasseEmbutida) demonstrates the use of a local inner class within a method.
 
 The ExemploClasseEmbutida class has a method calcular that takes two int parameters a and b. Inside the calcular method, we define a local inner class Interna that implements the Multiplicavel interface. The Interna class has a method produto that returns the product of a and b.
 
