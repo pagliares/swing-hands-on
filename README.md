@@ -24,6 +24,8 @@ I thinnk this repository is a valuable resource for students who want to review 
 ## Part III - Event handlers, adapter classes, and inner classes
 <p><a href="https://github.com/pagliares/swing-hands-on#10---actionlistener-example">10 - ActionListener example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#11---mouselistener-example">11 - MouseListener example</a></p>
+<p><a href="">12 - Inner classes</a></p>
+
 
 ## Part I - First steps with Swing
 
@@ -244,7 +246,15 @@ In the actionPerformed method, the code displays a message dialog showing the la
 
 The main method creates an instance of the ExemploMouseListener class and calls the configurarJanela method to display the JFrame with the two buttons.
 
-
 <p align="center"> <img src="Images/Mouse_Listener_1.png" width="372" height="84" alt="Example output" title="ActionListener example"></p>
 <p align="center"> <img src="Images/Mouse_Listener_2.png" width="385" height="98" alt="Example output" title="ActionListener example"></p>
 <p align="center"> <img src="Images/Mouse_Listener_3.png" width="385" height="75" alt="Example output" title="ActionListener example"></p>
+
+
+### 12 - Inner classes  
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> inner-classes-example
+
+<strong>Summary</strong>
+
