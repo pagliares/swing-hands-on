@@ -231,6 +231,7 @@ The main method creates an instance of the ExemploActionListener class and calls
 - <strong>Project source:</strong> mouse-listener-example
 
 <strong>Summary</strong>
+
 This is a Java code example that demonstrates how to handle events from a mouse using an implementation of the MouseListener interface.
 
 The code creates a JFrame and adds two JButtons to it. The code also implements the ActionListener interface, so it can handle action events from the JButtons.
