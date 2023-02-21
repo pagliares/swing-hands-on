@@ -21,6 +21,9 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#08---boxlayout-example">09 - GridBagLayout example</a></p>
 
 
+## Part III - Event handlers, adapter classes, and inner classes
+<p><a href="">10 - ActionListener example</a></p>
+
 ## Part I - First steps with Swing
 
 ### 01 - First JFrame (Composition)
@@ -179,7 +182,7 @@ When the program runs, it displays a window with a tabbed pane that allows the u
 <p align="center"> <img src="Images/Box_Layout_4.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
 <p align="center"> <img src="Images/Box_Layout_5.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
 
-### 08 - GridBagLayout example 
+### 09 - GridBagLayout example 
 
 - <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
 - <strong>Project source:</strong> grid-bag-layout-example
@@ -196,3 +199,12 @@ Overall, this code is an example of how to use the GridBagLayout to create a cus
 
 <p align="center"> <img src="Images/Grid_Bag_Layout_Example.png" width="582" height="358" alt="Example output" title="GridBagLayout example"></p>
 
+
+## Part III - Event handlers, adapter classes, and inner classes
+
+### 10 - ActionListener example 
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> action-listener-example
+
+<strong>Summary</strong>
