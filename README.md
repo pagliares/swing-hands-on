@@ -18,6 +18,8 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#06---borderlayout-example">06 - BorderLayout example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#07---gridlayout-example">07 - GridLayout example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#08---boxlayout-example">08 - BoxLayout example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#08---boxlayout-example">09 - GridBagLayout example</a></p>
+
 
 ## Part I - First steps with Swing
 
@@ -176,4 +178,21 @@ When the program runs, it displays a window with a tabbed pane that allows the u
 <p align="center"> <img src="Images/Box_Layout_3.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
 <p align="center"> <img src="Images/Box_Layout_4.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
 <p align="center"> <img src="Images/Box_Layout_5.png" width="766" height="192" alt="Example output" title="BorderLayout"></p>
+
+### 08 - GridBagLayout example 
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> grid-bag-layout-example
+
+<strong>Summary</strong>
+
+This is a Java code example that creates a window with a flexible grid layout, using the GridBagLayout class. The layout allows components to be positioned in cells of a grid and configured with different constraints for each component, such as weight, fill, anchor, and grid width/height.
+
+The code creates several Swing components, including JTextArea, JComboBox, JTextField, and JButton, and adds them to the layout using the addComponent method, which takes the component, row, column, width, and height as parameters. The constraints for each component are set using the GridBagConstraints class, which is instantiated in the constructor.
+
+The main method creates an instance of the GridBagFrame class, sets the default close operation, sets the size of the frame, and displays it on the screen.
+
+Overall, this code is an example of how to use the GridBagLayout to create a custom layout for a Swing application in Java.
+
+<p align="center"> <img src="Images/Grid_Bag_Layout_Example.png" width="582" height="358" alt="Example output" title="GridBagLayout example"></p>
 
