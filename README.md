@@ -23,6 +23,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 
 ## Part III - Event handlers, adapter classes, and inner classes
 <p><a href="">10 - ActionListener example</a></p>
+<p><a href="">11 - MouseListener example</a></p>
 
 ## Part I - First steps with Swing
 
@@ -222,3 +223,27 @@ The main method creates an instance of the ExemploActionListener class and calls
 <p align="center"> <img src="Images/Action_Listener_1.png" width="372" height="84" alt="Example output" title="ActionListener example"></p>
 <p align="center"> <img src="Images/Action_Listener_2.png" width="302" height="201" alt="Example output" title="ActionListener example"></p>
 <p align="center"> <img src="Images/Action_Listener_3.png" width="302" height="201" alt="Example output" title="ActionListener example"></p>
+
+
+### 11 - MouseListener example 
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> mouse-listener-example
+
+<strong>Summary</strong>
+This is a Java code example that demonstrates how to handle events from a mouse using an implementation of the MouseListener interface.
+
+The code creates a JFrame and adds two JButtons to it. The code also implements the ActionListener interface, so it can handle action events from the JButtons.
+
+In the configurarJanela method, the code registers the instance of the class as a listener for both mouse and action events on each button.
+
+In the mouseEntered and mouseExited methods, the code changes the text of the button that the mouse is hovering over.
+
+In the actionPerformed method, the code displays a message dialog showing the label of the button that was clicked.
+
+The main method creates an instance of the ExemploMouseListener class and calls the configurarJanela method to display the JFrame with the two buttons.
+
+
+<p align="center"> <img src="Images/Mouse_Listener_1.png" width="372" height="84" alt="Example output" title="ActionListener example"></p>
+<p align="center"> <img src="Images/Mouse_Listener_2.png" width="385" height="98" alt="Example output" title="ActionListener example"></p>
+<p align="center"> <img src="Images/Mouse_Listener_3.png" width="385" height="75" alt="Example output" title="ActionListener example"></p>
