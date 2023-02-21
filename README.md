@@ -258,3 +258,40 @@ The main method creates an instance of the ExemploMouseListener class and calls 
 
 <strong>Summary</strong>
 
+This first inner class example (ExemploClasseInternaEstatica)  demonstrates the use of static inner classes. The outer class, ExemploClasseInternaEstatica, contains two static inner classes: InternaUm and InternaDois.
+
+InternaUm has a static field campoInterna1 and a static method metodoInterno(). The method prints a message to the console, sets campoInterna1 to 15, and returns void.
+
+InternaDois extends InternaUm and has a static field campoInterna2 and a static method metodoInterno(). The method prints a message to the console, sets campoInterna2 to 55, and returns void.
+
+In the main method, we call InternaUm.metodoInterno(), which sets campoInterna1 to 15 and prints a message to the console. We then print the value of InternaUm.campoInterna1 to the console, which should be 15.
+
+We then call InternaDois.metodoInterno(), which sets campoInterna2 to 55 and prints a message to the console. We print the value of InternaDois.campoInterna2 to the console, which should be 55.
+
+The purpose of this code is to demonstrate how to define and use static inner classes in Java. Static inner classes are nested classes that are declared as static, which means that they can be accessed without creating an instance of the outer class. In this example, we access the static fields and methods of InternaUm and InternaDois directly, without creating an instance of ExemploClasseInternaEstatica.
+
+This second inner class example (ExemploClasseInternaDeInstancia) demonstrates the use of an inner class within an outer class instance.
+
+The outer class, ExemploClasseInternaDeInstancia, has a field campoUm and a private inner class Interna. Interna has two fields, campoUm and campoDois, and a method metodoInterno() that sets and prints the values of these fields.
+
+The metodoInterno() method first sets the campoUm field of the outer class instance to 10 and prints a message to the console. It then sets the campoUm field of the inner class instance to 15 and prints a message to the console. Finally, it sets the campoDois field of the inner class instance to 50 and prints a message to the console.
+
+The Interna class also has a method getCampoUmClasseExterna() that returns the value of campoUm from the outer class instance.
+
+In the main method, we create an instance of ExemploClasseInternaDeInstancia and an instance of Interna using the new keyword with the outer class instance (e) as a qualifier. We then call i.metodoInterno(), which sets and prints the values of the Interna fields and the outer class field.
+
+We print the values of the Interna fields and the outer class field to the console using the instance of Interna (i). We also call i.getCampoUmClasseExterna() to get the value of campoUm from the outer class instance and print it to the console.
+
+The purpose of this code is to demonstrate how to define and use an inner class within an outer class instance in Java. An inner class can access the fields and methods of the outer class, and can also have its own fields and methods. When creating an instance of the inner class, we need to use the new keyword with the outer class instance as a qualifier.
+
+This third inner class example (ExemploClasseEmbutida) demonstrates the use of a local inner class within a method.
+
+The ExemploClasseEmbutida class has a method calcular that takes two int parameters a and b. Inside the calcular method, we define a local inner class Interna that implements the Multiplicavel interface. The Interna class has a method produto that returns the product of a and b.
+
+We then create an instance of the Interna class and return it from the calcular method. The Interna class has access to the a and b parameters of the calcular method, which are marked as final to ensure that their values cannot be changed.
+
+In the main method, we create an instance of ExemploClasseEmbutida and call its calcular method with the parameters 2 and 3. This returns an instance of the Interna class, which is assigned to a variable of type Multiplicavel.
+
+We then call the produto method on the Multiplicavel instance to get the product of 2 and 3, which is 6. We print this value to the console.
+
+The purpose of this code is to demonstrate the use of a local inner class to encapsulate behavior that is specific to a particular method. By defining the Interna class inside the calcular method, we ensure that it is only visible and accessible within the context of that method. This can make the code more modular and easier to understand.
