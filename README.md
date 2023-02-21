@@ -18,12 +18,12 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#06---borderlayout-example">06 - BorderLayout example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#07---gridlayout-example">07 - GridLayout example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#08---boxlayout-example">08 - BoxLayout example</a></p>
-<p><a href="https://github.com/pagliares/swing-hands-on#08---boxlayout-example">09 - GridBagLayout example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#09---gridbaglayout-example">09 - GridBagLayout example</a></p>
 
 
 ## Part III - Event handlers, adapter classes, and inner classes
-<p><a href="">10 - ActionListener example</a></p>
-<p><a href="">11 - MouseListener example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#10---actionlistener-example">10 - ActionListener example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#11---mouselistener-example">11 - MouseListener example</a></p>
 
 ## Part I - First steps with Swing
 
