@@ -28,7 +28,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#13---closing-a-jframe---strategy-1">13 - Closing a JFrame - Strategy #1</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#14---closing-a-jframe---strategy-2">14 - Closing a JFrame - Strategy #2</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#15---inner-classes-and-event-handling">15 - Inner classes and event handling</a></p>
-
+<p><a href="">16 - Anonymous classes and event handling</a></p>
 
 
 ## Part I - First steps with Swing
@@ -351,3 +351,11 @@ The exibeFrame method adds the label and the text field to the JFrame window, re
 <p align="center"><img src="Images/Inner_Class_Event_Handler_2.png" width="419" height="238" alt="Example output" title="ActionListener example"></p>
 
 
+### 16 - Anonymous classes and event handling  
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> anonymous-class-event-handler
+
+<strong>Summary</strong>
+
+- This example is identical to the previous one with the exception it uses an anonymous class. In other words, the program creates a JFrame window with a label and a text field, and registers two mouse event listeners, one of which is a anonymous class.
