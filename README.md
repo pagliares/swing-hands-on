@@ -25,6 +25,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#10---actionlistener-example">10 - ActionListener example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#11---mouselistener-example">11 - MouseListener example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#12---inner-classes">12 - Inner classes</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#12---inner-classes">13 - Closing a JFrame - Strategy #1</a></p>
 
 
 ## Part I - First steps with Swing
@@ -301,3 +302,16 @@ In the main method, we create an instance of ExemploClasseEmbutida and call its 
 We then call the produto method on the Multiplicavel instance to get the product of 2 and 3, which is 6. We print this value to the console.
 
 The purpose of this code is to demonstrate the use of a local inner class to encapsulate behavior that is specific to a particular method. By defining the Interna class inside the calcular method, we ensure that it is only visible and accessible within the context of that method. This can make the code more modular and easier to understand.
+
+### 13 - Closing a JFrame - Strategy #1  
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> jframe-closing-fist-strategy
+
+<strong>Summary</strong>
+
+This is a Java program that creates a simple graphical user interface (GUI) using the Swing framework. The program creates a JFrame window with a title "Fechando o JFrame" and a size of 300 x 200 pixels. The window is set to be visible by calling the setVisible(true) method on the JFrame object.
+
+The program also registers a WindowListener object, TratadorJanela, to handle window events. In this case, the windowClosing method is implemented to terminate the program when the user clicks on the close button of the JFrame. The System.exit(0) method is called to terminate the program with a normal exit status.
+
+The main method creates an instance of the FechaJFrame1 class, which in turn creates the JFrame window and registers the TratadorJanela object as the window listener. When the user closes the window, the windowClosing method is called, and the program terminates.
