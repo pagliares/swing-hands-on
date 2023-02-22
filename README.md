@@ -26,6 +26,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#11---mouselistener-example">11 - MouseListener example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#12---inner-classes">12 - Inner classes</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#13---closing-a-jframe---strategy-1">13 - Closing a JFrame - Strategy #1</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#13---closing-a-jframe---strategy-2">14 - Closing a JFrame - Strategy #2</a></p>
 
 
 ## Part I - First steps with Swing
@@ -315,3 +316,16 @@ This is a Java program that creates a simple graphical user interface (GUI) usin
 The program also registers a WindowListener object, TratadorJanela, to handle window events. In this case, the windowClosing method is implemented to terminate the program when the user clicks on the close button of the JFrame. The System.exit(0) method is called to terminate the program with a normal exit status.
 
 The main method creates an instance of the FechaJFrame1 class, which in turn creates the JFrame window and registers the TratadorJanela object as the window listener. When the user closes the window, the windowClosing method is called, and the program terminates.
+
+### 14 - Closing a JFrame - Strategy #2  
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> jframe-closing-second-strategy
+
+<strong>Summary</strong>
+
+Similar to the previous example, this is also a Java program that creates a simple graphical user interface (GUI) using the Swing framework. The program creates a JFrame window with a title "Fechando o JFrame" and a size of 300 x 200 pixels. The window is set to be visible by calling the setVisible(true) method on the JFrame object.
+
+In this version of the program, the setDefaultCloseOperation method is used to specify the default close operation for the JFrame window. The EXIT_ON_CLOSE constant is passed as an argument to this method to indicate that the program should exit when the user clicks on the close button of the JFrame. This is a simpler way to handle window closing events, as it automatically terminates the program without the need to register a WindowListener object.
+
+The main method creates an instance of the FechaJFrame2 class, which in turn creates the JFrame window and sets the default close operation to EXIT_ON_CLOSE. When the user closes the window, the program terminates.
