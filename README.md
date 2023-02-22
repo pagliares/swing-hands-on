@@ -27,6 +27,8 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#12---inner-classes">12 - Inner classes</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#13---closing-a-jframe---strategy-1">13 - Closing a JFrame - Strategy #1</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#14---closing-a-jframe---strategy-2">14 - Closing a JFrame - Strategy #2</a></p>
+<p><a href="">15 - Inner classes and event handling</a></p>
+
 
 
 ## Part I - First steps with Swing
@@ -329,3 +331,23 @@ Similar to the previous example, this is also a Java program that creates a simp
 In this version of the program, the setDefaultCloseOperation method is used to specify the default close operation for the JFrame window. The EXIT_ON_CLOSE constant is passed as an argument to this method to indicate that the program should exit when the user clicks on the close button of the JFrame. This is a simpler way to handle window closing events, as it automatically terminates the program without the need to register a WindowListener object.
 
 The main method creates an instance of the FechaJFrame2 class, which in turn creates the JFrame window and sets the default close operation to EXIT_ON_CLOSE. When the user closes the window, the program terminates.
+
+### 15 - Inner classes and event handling  
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> inner-class-event-handler
+
+<strong>Summary</strong>
+
+This is a Java program that creates a simple graphical user interface (GUI) using the Swing framework. The program creates a JFrame window with a label and a text field, and registers two mouse event listeners, MeuMouseListener and TratadorCliqueMouse, to handle mouse events.
+
+The MeuMouseListener class is an inner class that extends the MouseMotionAdapter class and overrides the mouseDragged method. This method is called when the user drags the mouse within the window, and it updates the text field with the current X and Y coordinates of the mouse.
+
+The TratadorCliqueMouse class is another inner class that extends the MouseAdapter class and overrides the mouseClicked method. This method is called when the user clicks the mouse within the window, and it updates the text field with the X and Y coordinates of the mouse at the click location.
+
+The exibeFrame method adds the label and the text field to the JFrame window, registers the two mouse event listeners to handle mouse events, and sets the size and visibility of the window. The main method creates an instance of the TestaClasseAninhada class and calls the exibeFrame method to display the GUI.
+
+<p align="center"><img src="Images/Inner_Class_Event_Handler_1.png" width="419" height="238" alt="Example output" title="ActionListener example"></p>
+<p align="center"><img src="Images/Inner_Class_Event_Handler_2.png" width="419" height="238" alt="Example output" title="ActionListener example"></p>
+
+
