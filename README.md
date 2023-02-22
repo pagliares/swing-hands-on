@@ -26,7 +26,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#11---mouselistener-example">11 - MouseListener example</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#12---inner-classes">12 - Inner classes</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#13---closing-a-jframe---strategy-1">13 - Closing a JFrame - Strategy #1</a></p>
-<p><a href="https://github.com/pagliares/swing-hands-on#13---closing-a-jframe---strategy-2">14 - Closing a JFrame - Strategy #2</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#14---closing-a-jframe---strategy-2">14 - Closing a JFrame - Strategy #2</a></p>
 
 
 ## Part I - First steps with Swing
