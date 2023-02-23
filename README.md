@@ -33,6 +33,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 ## Part IV - Swing components
 <p><a href="https://github.com/pagliares/swing-hands-on#17---jframe-and-changing-the-look-and-feel">17 - JFrame and changing the look and feel</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#18---jlabel-example">18 - JLabel example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#18---jlabel-example">19 - JTextField examples</a></p>
 
 
 ## Part I - First steps with Swing
@@ -406,4 +407,36 @@ Overall, the program demonstrates how to use HTML formatting in Swing JLabels to
 <strong> Known issue ! </strong> image of the example not being displayed when being executed within IntelliJ IDEA.
 
 <p align="center"><img src="Images/JLabel_Example.png" width="627" height="419" alt="Example output" title="ActionListener example"></p>
+
+### 19 - JTextField examples
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> jtextfield-example
+
+<strong>Summary</strong>
+
+Example #1: This Java program creates a simple GUI window that contains a label and a text field using the JTextField and JLabel classes from the Swing GUI toolkit.
+
+The JFrame class is used to create the window and set its title, layout, size, and visibility. The FlowLayout layout manager is used to position the label and text field components in a row. The JLabel class creates a label with the text "Name", while the JTextField class creates a text field with a width of 30 characters.
+
+The program does not include any event handling code to respond to user interactions with the text field.
+
+When executed, this program will display a window titled "JTextField Example" containing a label "Name" and a text field with enough width to display up to 30 characters. The window is not resizable.
+
+
+<p align="center"><img src="Images/JTextField_1.png" width="402" height="70" alt="Example output" title="JFrame example"></p>
+
+Example #2:
+
+This Java program defines a custom component JLabeledTextFieldExample that extends JPanel and combines a JLabel and a JTextField to create a labeled text field.
+
+The constructor takes two strings as arguments, labelString and textFieldString, which represent the text for the label and the text field, respectively. The constructor also takes an optional LayoutManager argument, which is used to specify the layout of the panel that contains the label and text field. If no layout is provided, the default layout is a FlowLayout with left alignment.
+
+The getJLabel() and getJTextField() methods return the JLabel and JTextField components, respectively, that are used to create the labeled text field. The getText() and setText() methods provide access to the text in the text field.
+
+The setFonts() method sets the font of both the label and the text field. The setEnabled() method sets the enabled status of both the label and the text field, as well as the panel itself.
+
+The main() method creates a JFrame and adds an instance of JLabeledTextFieldExample to it using a BorderLayout. When executed, the program will display a window containing a labeled text field with the label "Name" and the initial text "text". The window is not resizable.
+
+<p align="center"><img src="Images/JTextField_2.png" width="402" height="70" alt="Example output" title="JFrame example"></p>
 
