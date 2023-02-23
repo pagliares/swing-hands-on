@@ -31,7 +31,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#16---anonymous-classes-and-event-handling">16 - Anonymous classes and event handling</a></p>
 
 ## Part IV - Swing components
-<p><a href="https://github.com/pagliares/swing-hands-on#17---anonymous-classes-and-event-handling">17 - JFrame</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#17---jframe-and-changing-the-look-and-feel">17 - JFrame and changing the look and feel</a></p>
 
 
 ## Part I - First steps with Swing
