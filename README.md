@@ -365,7 +365,7 @@ The exibeFrame method adds the label and the text field to the JFrame window, re
 
 ## Part IV - Swing components
 
-### 17 - Anonymous classes and event handling  
+### 17 - JFrame and changing the look and feel 
 
 - <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
 - <strong>Project source:</strong> jframe-example
