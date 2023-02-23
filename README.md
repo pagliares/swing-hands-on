@@ -374,5 +374,19 @@ The exibeFrame method adds the label and the text field to the JFrame window, re
 
 This Java code example contains a helper class WindowUtilities that provides methods to set the look and feel of Swing applications to native, Java, or Motif. It also includes methods to create a JFrame and set its content, size, and background color, as well as an ExitListener class that exits the application when the JFrame is closed. The JFrameExample class uses these utilities to create a simple JFrame with three buttons arranged using the FlowLayout manager. When the JFrame is closed, the ExitListener class exits the application.
 
+<br>
+<strong><p align="center">Native Look and feel</p></strong>
 <p align="center"><img src="Images/JFrame_Example.png" width="472" height="176" alt="Example output" title="JFrame example"></p>
+
+<br>
+<strong><p align="center">Motif Look and feel</p></strong>
+<p align="center"><img src="Images/JFrame_Example_2.png" width="472" height="176" alt="Example output" title="JFrame example"></p>
+
+<br>
+<strong><p align="center">Java Look and feel</p></strong>
+<p align="center"><img src="Images/JFrame_Example_3.png" width="472" height="176" alt="Example output" title="JFrame example"></p>
+
+
+
+
 
