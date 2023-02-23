@@ -32,7 +32,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 
 ## Part IV - Swing components
 <p><a href="https://github.com/pagliares/swing-hands-on#17---jframe-and-changing-the-look-and-feel">17 - JFrame and changing the look and feel</a></p>
-<p><a href="">18 - JLabel example</a></p>
+<p><a href="https://github.com/pagliares/swing-hands-on#18---jlabel-example">18 - JLabel example</a></p>
 
 
 ## Part I - First steps with Swing
