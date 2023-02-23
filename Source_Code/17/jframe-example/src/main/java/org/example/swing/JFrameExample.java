@@ -23,7 +23,6 @@ public class JFrameExample {
  
     WindowUtilities.setNativeLookAndFeel();
     // try other look and feel, e.g. WindowUtilities.setMotifLookAndFeel();
- 
     JFrame f = new JFrame("This is a test");
     f.setSize(400, 150);
     
