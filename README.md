@@ -32,6 +32,7 @@ I thinnk this repository is a valuable resource for students who want to review 
 
 ## Part IV - Swing components
 <p><a href="https://github.com/pagliares/swing-hands-on#17---jframe-and-changing-the-look-and-feel">17 - JFrame and changing the look and feel</a></p>
+<p><a href="">18 - JLabel example</a></p>
 
 
 ## Part I - First steps with Swing
@@ -387,6 +388,22 @@ This Java code example contains a helper class WindowUtilities that provides met
 <p align="center"><img src="Images/JFrame_Example_3.png" width="472" height="176" alt="Example output" title="JFrame example"></p>
 
 
+### 18 - JLabel example
 
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> jlabel-example
 
+<strong>Summary</strong>
+
+This is a Java program that creates a graphical user interface (GUI) window using the Swing API. The window contains three JLabels, each with different HTML formatting.
+
+The first JLabel displays text with two different font colors: white and gray. The text is centered and has a titled border. The second JLabel displays text with bold and italic formatting. It is also centered and has a titled border. The third JLabel displays a longer piece of text with a bulleted list using HTML formatting. It also includes an image and has a titled border.
+
+The program sets the font for the entire content pane to be Serif with a plain style and a size of 30 points. It also sets the look and feel to be the native system look and feel. Finally, it packs the components in the window and makes it visible.
+
+Overall, the program demonstrates how to use HTML formatting in Swing JLabels to create visually appealing and dynamic text displays in a GUI window.
+
+<strong> Known issue ! </strong> image of the example not being displayed when being executed within IntelliJ IDEA.
+
+<p align="center"><img src="Images/JLabel_Example.png" width="627" height="419" alt="Example output" title="ActionListener example"></p>
 
