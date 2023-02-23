@@ -30,6 +30,9 @@ I thinnk this repository is a valuable resource for students who want to review 
 <p><a href="https://github.com/pagliares/swing-hands-on#15---inner-classes-and-event-handling">15 - Inner classes and event handling</a></p>
 <p><a href="https://github.com/pagliares/swing-hands-on#16---anonymous-classes-and-event-handling">16 - Anonymous classes and event handling</a></p>
 
+## Part IV - Swing components
+<p><a href="https://github.com/pagliares/swing-hands-on#17---anonymous-classes-and-event-handling">17 - JFrame</a></p>
+
 
 ## Part I - First steps with Swing
 
@@ -359,3 +362,17 @@ The exibeFrame method adds the label and the text field to the JFrame window, re
 <strong>Summary</strong>
 
 - This example is identical to the previous one with the exception it uses an anonymous class. In other words, the program creates a JFrame window with a label and a text field, and registers two mouse event listeners, one of which is a anonymous class.
+
+## Part IV - Swing components
+
+### 17 - Anonymous classes and event handling  
+
+- <small><a href="https://github.com/pagliares/swing-hands-on#outline">Back to Outline</a></small>
+- <strong>Project source:</strong> jframe-example
+
+<strong>Summary</strong>
+
+This Java code example contains a helper class WindowUtilities that provides methods to set the look and feel of Swing applications to native, Java, or Motif. It also includes methods to create a JFrame and set its content, size, and background color, as well as an ExitListener class that exits the application when the JFrame is closed. The JFrameExample class uses these utilities to create a simple JFrame with three buttons arranged using the FlowLayout manager. When the JFrame is closed, the ExitListener class exits the application.
+
+<p align="center"><img src="Images/JFrame_Example.png" width="472" height="176" alt="Example output" title="JFrame example"></p>
+
